@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgba(135, 236, 194, 0.548);
+}
+.logo img {
+  width: 500px;
+}
+
+.btn {
+  padding: 10px 20px;
+  width: 130px;
+  height: 50px;
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(78, 226, 246);
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.select select {
+  width: 200px;
+  height: 40px;
+  outline: none;
+  border: 1px solid rgb(191, 214, 60);
+  margin-top: 2rem;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.question {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  transform: scale(1.3);
+}
+.quetion-icon button {
+  border-radius: 2px 0 0 2px;
+  padding: 5px 8px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: rgb(71, 71, 71);
+}
+.question input {
+  border-radius: 0 2px 2px 0;
+  outline: none;
+  border: none;
+  padding: 0 5px;
+}
+.option {
+  display: flex;
+  transform: scale(1.3);
+}
+.option input {
+  border: none;
+  padding: 0 5px;
+  border-radius: 5px;
+  height: 30px;
+  margin: 10px 0;
+}
+.inc-dec {
+  margin: 10px 0;
+}
+.inc,
+.dec {
+  padding: 6px;
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.btn1 {
+  padding: 8px 10px;
+  margin-top: 20px;
+  margin-right: 14px;
+  margin-bottom: 20px;
+  background-color: rgb(203, 245, 51);
+  border: none;
+  border-radius: 2px;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.publish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.col {
+  padding: 10px;
+  font-size: 18px;
+}
+.option label input {
+  margin-right: 10px;
+}
+
+@media (max-width: 700px) {
+  .logo img {
+    width: 200px;
+  }
+}
